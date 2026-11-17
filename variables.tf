@@ -16,6 +16,9 @@ variable "sg_ids" {
 
 variable "ec2_tags" {
   type = map 
+  default = {
+    
+  }
 }
 
 variable "component" {

@@ -5,7 +5,7 @@ data "aws_ami" "ami_id" {
     values = [ "Redhat-9-DevOps-Practice" ]
   }
   filter {
-    name = "Virtualization"
+    name = "virtualization-type"
     values = [ "hvm" ]
   }
   owners = [ "973714476881" ]
